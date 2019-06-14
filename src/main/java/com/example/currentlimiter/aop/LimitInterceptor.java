@@ -63,7 +63,7 @@ public class LimitInterceptor {
                 key =  getIpAddress();
                 break;
             case CUSTOMER:
-                // TODO 如果此处想根据表达式或者一些规则生成 请看 一起来学Spring Boot | 第二十三篇：轻松搞定重复提交（分布式锁）
+                // TODO 如果此处想根据表达式或者一些规则生成
                 key=methodAnnotation.key();
                 break;
             default:
